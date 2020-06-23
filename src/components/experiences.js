@@ -1,8 +1,6 @@
 import React from 'react';
-import { Container, Box, Grid, List, Paper, Divider, ListItem, Typography, Modal, Button, FormControl, InputLabel, Input, TextField } from '@material-ui/core';
+import { Container, Box, Grid, List, Paper, ListItem, Typography, Modal, Button, FormControl, TextField } from '@material-ui/core';
 import Avatar from '@material-ui/core/Avatar';
-import IconButton from '@material-ui/core/IconButton';
-import { red } from '@material-ui/core/colors';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import ShareOutlinedIcon from '@material-ui/icons/ShareOutlined';
@@ -15,11 +13,7 @@ import SendIcon from '@material-ui/icons/Send';
 import axios from 'axios';
 
 import {
-    fade,
-    ThemeProvider,
-    withStyles,
     makeStyles,
-    createMuiTheme,
 } from '@material-ui/core/styles';
 
 import './experiences.css';

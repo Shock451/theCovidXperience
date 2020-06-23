@@ -1,10 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-import { white, orange, blue } from '@material-ui/core/colors';
+import { orange } from '@material-ui/core/colors';
 
-import { createMuiTheme, makeStyles, ThemeProvider } from '@material-ui/core/styles';
+import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 
 import {
   CssBaseline
@@ -54,8 +53,6 @@ theme.typography.h3 = {
 };
 
 function App() {
-
-  // const classes = useStyles();
 
   return (
     <React.Fragment>

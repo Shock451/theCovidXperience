@@ -1,10 +1,6 @@
 import React from 'react';
 import './header.css';
-import Logo from '../logo.svg';
-import { colors, Typography, Paper } from '@material-ui/core';
-import { Container } from '@material-ui/core';
-
-import { grey } from '@material-ui/core/colors';
+import { Typography, Paper } from '@material-ui/core';
 
 import './banner.css';
 
