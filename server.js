@@ -10,7 +10,7 @@ const multer = require("multer");
 var mysql = require('mysql');
 let db_config = {}
 
-if (process.env.NODE_ENV == "production") {
+if (process.env.NODE_ENV === "production") {
     db_config = {
         host: process.env.REMOTE_DB_HOST,
         user: process.env.REMOTE_DB_USER,
