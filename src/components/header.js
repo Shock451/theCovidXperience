@@ -24,11 +24,11 @@ export const Header = () => {
                     <Grid item>
                         <img src={Logo} height={40} alt='covid-experience-logo' />
                     </Grid>
-                    <Grid item>
+                    {/* <Grid item>
                         <IconButton size={12} color="primary" aria-label="Share your experience" component="span">
                             <ShareOutlinedIcon />
                         </IconButton>
-                    </Grid>
+                    </Grid> */}
                 </Grid>
             </Toolbar>
         </AppBar>

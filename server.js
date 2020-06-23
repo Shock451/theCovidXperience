@@ -26,7 +26,7 @@ if (process.env.NODE_ENV === "production") {
     }
 }
 
-const connection = mysql.createConnection(db_config);
+const connection = mysql.createPool(db_config);
 
 app.disable("x-powered-by");
 

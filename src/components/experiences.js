@@ -115,6 +115,7 @@ export function Experiences() {
         axios.post(url, formData, { // receive two parameter endpoint url ,form data 
         }).then(res => { // then print response status
             console.warn(res);
+            window.location.reload();
         })
     }
 
