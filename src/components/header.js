@@ -7,7 +7,6 @@ import {
     AppBar,
     Toolbar,
     IconButton,
-    Typography,
     Grid
 } from '@material-ui/core';
 
