@@ -12,10 +12,10 @@ let db_config = {}
 
 if (process.env.NODE_ENV === "production") {
     db_config = {
-        host: process.env.REMOTE_DB_HOST,
-        user: process.env.REMOTE_DB_USER,
-        password: process.env.REMOTE_DB_PASS,
-        database: process.env.REMOTE_DB_NAME
+        host: process.env.HEROKU_DB_HOST,
+        user: process.env.HEROKU_DB_USER,
+        password: process.env.HEROKU_DB_PASS,
+        database: process.env.HEROKU_DB_NAME
     }
 } else{
     db_config = {
