@@ -110,7 +110,7 @@ export function Experiences() {
         formData.append('story', story);
         console.warn(selectedFile);
         
-        let url = "thecovidxperience.herokuapp.com/api/posts";
+        let url = "/api/posts";
 
         axios.post(url, formData, { // receive two parameter endpoint url ,form data 
         }).then(res => { // then print response status
@@ -224,7 +224,7 @@ function Experience(props) {
     const data = props.data;
 
     const handleLike = async () => {
-        const url = `thecovidxperience.herokuapp.com/api/posts/${data.id}/like`;
+        const url = `/api/posts/${data.id}/like`;
         await axios.post(url, { id: data.id })
             .then(res => {
                 console.log(res.data);
@@ -236,7 +236,7 @@ function Experience(props) {
 
     const handleShare = async (e) => {
         e.preventDefault();
-        await axios.post(`thecovidxperience.herokuapp.com/api/posts/${data.id}/like`, {})
+        await axios.post(`/api/posts/${data.id}/like`, {})
             .then(res => {
                 console.log(res.data);
                 setLike(!like);
