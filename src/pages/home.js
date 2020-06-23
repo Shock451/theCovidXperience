@@ -9,7 +9,7 @@ export default function HomePage() {
     return (
         <React.Fragment>
             <Header />
-            {/* <Banner /> */}
+            <Banner />
             <Experiences />
         </React.Fragment>
     );
