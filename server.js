@@ -33,7 +33,7 @@ app.disable("x-powered-by");
 
 var storage = multer.diskStorage({
     destination: function (req, file, cb) {
-        cb(null, "./build/uploads");
+        cb(null, "./build/static/uploads");
     },
     filename: function (req, file, cb) {
 
