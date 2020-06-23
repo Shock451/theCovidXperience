@@ -1,0 +1,52 @@
+.container {
+  width: 100%;
+  padding: 15px;
+  background: "#eeeeee";
+  display: flex;
+  justify-content: flex-start;
+}
+
+.uploadButton {
+  background-color: #4f7cac;
+  color: #ffffff;
+}
+
+.paper {
+  background-color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.button {
+  margin: 5px;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.root {
+  margin-top: 40;
+  margin-bottom: 40;
+  flex-grow: 1;
+  text-align: center;
+}
+,
+.avatar {
+  width: "90px";
+}
+.large {
+  width: 70px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icons > * {
+  margin-right: 20px;
+}
+.leadText {
+  color: #101935;
+}

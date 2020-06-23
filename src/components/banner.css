@@ -1,0 +1,20 @@
+.wrapper {
+    background-color: #101935;
+    position: relative;
+}
+
+.text{
+    /* background-color: black; */
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+}
+
+.text-light-grey {
+    color: #cccccc;
+}
+
+.lead-text {
+    color: #ffffff
+}
